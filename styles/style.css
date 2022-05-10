@@ -13,7 +13,7 @@ h1 {
 }
 
 article {
-  margin: 35px 100px 35px 180px;
+  padding: 50px;
   width: 612px;
 }
 
@@ -29,14 +29,14 @@ a > strong {
 
 figure {
   padding: 0;
-  width: 612px;
+  width: 412px;
   margin-left: 0px;
 }
 
 figure > img {
   padding: 0px;
   margin: 0px;
-  width: 612px;
+  width: 412px;
 }
 
 figcaption {
@@ -151,4 +151,20 @@ footer {
 .footer-p .footer-a > strong {
   border: none;
   color: #fff;
+}
+
+@media (min-width: 700px) {
+
+  article {
+    margin: 35px 100px 35px 180px;
+    padding: 0;
+  }
+
+  figure {
+    width: 612px;
+  }
+
+  figure > img {
+    width: 612px;
+  }
 }
